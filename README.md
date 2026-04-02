@@ -45,7 +45,7 @@ Assets/Scripts/
 Расположены в `Assets/Resources/Configs/`.
 
 
-### Pipelive добавления нового типа жука
+### Pipeline добавления нового типа жука
 
 1. Добавьте значение в `BugType` enum.
 2. Создайте наследника `BugConfig` (ScriptableObject) с нужными параметрами.
