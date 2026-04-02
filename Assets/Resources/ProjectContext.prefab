@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7570447466977345920}
   - component: {fileID: 444765294700744155}
-  - component: {fileID: -6536855852930839526}
+  - component: {fileID: 1114545645419239526}
   m_Layer: 0
   m_Name: ProjectContext
   m_TagString: Untagged
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Zenject::Zenject.ProjectContext
   _scriptableObjectInstallers: []
   _monoInstallers:
-  - {fileID: -6536855852930839526}
+  - {fileID: 1114545645419239526}
   _installerPrefabs: []
   _parentNewObjectsUnderContext: 1
   _editorReflectionBakingCoverageMode: 0
@@ -62,7 +62,7 @@ MonoBehaviour:
       _missingHandlerDefaultResponse: 2
       _requireStrictUnsubscribe: 0
       _defaultAsyncTickPriority: 1
---- !u!114 &-6536855852930839526
+--- !u!114 &1114545645419239526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,6 +71,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6513586751623538819}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f36e37fb74779904f9caa9ba765a74f9, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f8ad2376ed16e04bacd196301389ef5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Zenject-IntegrationTests::Zenject.Tests.TestDestructionOrder.ProjectInstaller
+  m_EditorClassIdentifier: Assembly-CSharp::BugColony.Infrastructure.ProjectInstaller
